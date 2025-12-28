@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.11",
+    "path": "^0.12.7",
+    "socket": "^1.1.49",
+    "socket.io": "^4.8.1"
+  },
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {}
+}

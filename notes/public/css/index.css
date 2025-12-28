@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+    gap: 20px;
+}
+
+
+.note{
+    background-color: yellow;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.textarea{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+}

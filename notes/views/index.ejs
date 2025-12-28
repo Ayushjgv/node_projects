@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <form action="/note-add" method="post">
+        <textarea class="textarea" name="note" id="note" placeholder="type your note here"></textarea>
+        <button class="btn" type="submit">Create Note</button>
+    </form>
+    <div class="container">
+        <%notes.forEach((e,key)=>{%>
+            <div class="note">
+                <form action="/note-delete/<%= key %>" method="post">
+                    <button class="btn" type="submit">Delete</button>
+                </form>
+                <h2><%= e.content%></h2>
+                
+            </div>
+        <% })%>
+    </div>
+    
+
+
+
+
+
+
+
+
+    <script>
+    
+    </script>
+</body>
+</html>
