@@ -1,0 +1,13 @@
+.container-waiting{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle,black,rgb(17, 17, 17));
+}
+.waiting-box{
+  height: 200px;
+  border-radius: 10px;
+  color: white;
+}
